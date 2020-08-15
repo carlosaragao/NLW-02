@@ -1,10 +1,10 @@
-import React, { InputHTMLAttributes } from 'react';
+import React, { InputHTMLAttributes } from 'react'
 
-import './styles.css';
+import './styles.css'
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  name: string;
-  label: string;
+  name: string
+  label: string
 }
 
 const Input: React.FC<InputProps>= ({ label, name, ...rest }) => {
@@ -16,4 +16,4 @@ const Input: React.FC<InputProps>= ({ label, name, ...rest }) => {
   )
 }
 
-export default Input;
+export default Input

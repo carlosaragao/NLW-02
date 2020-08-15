@@ -1,10 +1,10 @@
-import React, { TextareaHTMLAttributes } from 'react';
+import React, { TextareaHTMLAttributes } from 'react'
 
-import './styles.css';
+import './styles.css'
 
 interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
-  name: string;
-  label: string;
+  name: string
+  label: string
 }
 
 const Textarea: React.FC<TextareaProps>= ({ label, name, ...rest }) => {
@@ -16,4 +16,4 @@ const Textarea: React.FC<TextareaProps>= ({ label, name, ...rest }) => {
   )
 }
 
-export default Textarea;
+export default Textarea
